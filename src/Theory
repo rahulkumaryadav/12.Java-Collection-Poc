@@ -1,0 +1,148 @@
+Refrence 1 durga soft 18 video: https://www.youtube.com/watch?v=Bqv4At5vHVQ&list=PLd3UqWTnYXOklywocjGz7Z02rqbLegX22
+
+------------------------------------------------------------------------------------------------------------------------
+An Array is an indexed collection of fixed number of homogenous data elements .
+The main advantage of array is we can represent multiple values by using single variable so that readablity of the code
+ is improved
+
+limitattion of array
+1.arrays are fixed in size i.e once we create an array there is no change of increasing or decresing based on our
+requirments due this to use array concepts complusy we should the size in advance which may not possible always.
+2. array can hold only homogenous data type exampe
+
+Student[] s= new Student[1000];
+s[0]=new Student();
+s[1]=new Customer();------------------>ce:incomptible type
+                                        found:Customer
+                                        required:Student
+
+We can solve this proble by using Object type array
+
+Object[] a =new Object[100000];
+s[0]=new Student();
+s[1]=new Customer();
+
+3.arrays concepts is not implimented based on some standard data structure and hence ready made method support is not a
+aviable for every requirmtnt we have to write code explicitly so complexcity of code is increse.
+to over come above problm we should go for collection concepts.
+
+collection are growable in natture that is based on our requirment we can increase and decrese size.
+collection can hold both homogenous and hetrogenous values
+every collection class is implemented based on some standard data structure hence for requirment ready made method support is avaible.
+being programmer we are responsible to use those method and we are not responsible to impliments those method.
+
+Diffrence between array and collections.
+
+Arrays
+arrays are fixed in size that is once we create an array we cant increse or decrese size based on our requirments
+based on memory arrays are not recommended to use.
+based on performance arrays are recommnded to use.
+arrays can hold only homogenous data type elemnts.
+there is no underline data structure for the array so there is no ready made method supports avilabe.
+for evey requirents we have to write code expcilitly that increse complecity of programming.
+ array can hold both premitive and object.
+
+Collection
+collection are growable in nature that is based on our requirments we can increase or decrease the size.
+with respect are memory collction are recommended to use.
+with respect to performance collection are not recommended to use
+collection can hold both homogenous and hetrogenous elcemnts.
+evey collection class is impliments some standanrd data structure and for evey requrinsmet readdy made method support is availe.
+being programmer we are responsible to use those method and we are not responsible to impliments those method.
+collection can hold only  object  not premitive .
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+Collection:
+If we want to represents a group of individuals object as a single entity then we should go for collection.
+Collection framework :
+it contains severale classes and interafaces which can be used to reprecnsts a groups of individual objects as a single entity.
+
+
+9 key interface of collection framework:
+colleciton
+list
+set
+sortedset
+navigableSet
+Queue
+Map
+SortedMap
+NavigableMap
+
+1.Collection(I):
+if we want to represents a group of individual object as single entity then we should go for collection.
+collection interface define most common methods which are applicable for any collection object.
+in generable collection interface is considered root interface of collection framework.
+there is no concrete class which impliments collection interface directly.
+
+What is difference between collection and collections ?
+collection is an interface if we want to represent a group of individual as a single entity then we should go for collecton.
+collections is an utility class present in java.util package to define severale utility method for collection objects. like sorting seaching  etc.
+
+2.List(I):
+it is the child interface of collection.
+if we want to represent a group of individual object as a single entity where duplicate are allowed and insertion order must be preserved then we should
+go for list.
+
+                                                                Collection(I)
+                                                                    |
+                                                                    |
+                                                                  List(I)
+                                                                    |
+                                     --------------------------------------------------------------
+                                     |                              |                              |
+                                  ArrayList(Class)              Linkedlist(Class)                 Vector(Class)
+                                                                                                    |
+                                                                                                   Stack(Class)
+
+Note:vector and stack classes are modified to impliments list interface.
+
+3.Set(I):
+it is the child interface of collection.
+if we want to represents a group of individual object as a single entity where duplicates are not allowed and insertion order not required then we should go
+for set interface.
+
+                                                                    Collecton(I)
+                                                                        |
+                                                                        |
+                                                                      Set(I)
+                                                                        |
+                                                                        |
+                                                                     HashSet(Class)
+                                                                        |
+                                                                        |
+                                                                  LinkedHashSet(Class)
+
+4.SortedSet(I):
+it is child interface of set
+if we want to represnts a group of individul object as single entity where duplicate are not allowed and all object should be inserted according to some sorting order
+then we should go for sortedSet.
+
+5.NavigableSet:
+it is child interface of sorted set it contains sevras methods for navigaton purposes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
+
+
