@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b6cecbc-e67a-4655-91fc-5d641ef975da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DurgaSoft/ArrayListExample1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DurgaSoft/ArrayListExample2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DurgaSoft/ArrayListExample3/ArrayListExample3.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DurgaSoft/ArrayListExample3/Student.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DurgaSoft/ArrayListExample4.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/12.Java-Collection-Poc/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/12.Java-Collection-Poc/Theory" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DurgaSoft/ArrayListExample5.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DurgaSoft/ArrayListExample6.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/12.Java-Collection-Poc/DurgaSoft/ArrayListExample4.class" afterPath="$PROJECT_DIR$/out/production/12.Java-Collection-Poc/DurgaSoft/ArrayListExample4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -46,16 +40,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayListExample4.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArrayListExample4.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DurgaSoft/ArrayListExample4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#388#396#0" expanded="true" />
                 <element signature="e#548#556#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayListExample5.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DurgaSoft/ArrayListExample5.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="30" />
+              <folding>
+                <element signature="e#237#245#0" expanded="true" />
+                <element signature="e#437#445#0" expanded="true" />
+                <element signature="e#668#676#0" expanded="true" />
+                <element signature="e#921#930#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayListExample6.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DurgaSoft/ArrayListExample6.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="32" lean-forward="false" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -86,6 +105,8 @@
         <option value="$PROJECT_DIR$/src/DurgaSoft/ArrayListExample3/Student.java" />
         <option value="$PROJECT_DIR$/src/DurgaSoft/ArrayListExample3/ArrayListExample3.java" />
         <option value="$PROJECT_DIR$/src/DurgaSoft/ArrayListExample4.java" />
+        <option value="$PROJECT_DIR$/src/DurgaSoft/ArrayListExample5.java" />
+        <option value="$PROJECT_DIR$/src/DurgaSoft/ArrayListExample6.java" />
       </list>
     </option>
   </component>
@@ -167,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArrayListExample4">
+  <component name="RunManager" selected="Application.ArrayListExample5">
     <configuration name="ArrayListExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -233,6 +254,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="DurgaSoft.ArrayListExample4" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="12.Java-Collection-Poc" />
+      <envs />
+    </configuration>
+    <configuration name="ArrayListExample5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="DurgaSoft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="DurgaSoft.ArrayListExample5" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -325,18 +365,20 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.ArrayListExample1" />
       <item index="1" class="java.lang.String" itemvalue="Application.ArrayListExample2" />
       <item index="2" class="java.lang.String" itemvalue="Application.ArrayListExample3" />
       <item index="3" class="java.lang.String" itemvalue="Application.ArrayListExample4" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ArrayListExample5" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.ArrayListExample4" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ArrayListExample3" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ArrayListExample2" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ArrayListExample1" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.ArrayListExample5" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ArrayListExample4" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ArrayListExample3" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ArrayListExample2" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ArrayListExample1" />
       </list>
     </recent_temporary>
   </component>
@@ -355,12 +397,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517821450410</updated>
-      <workItem from="1517821452872" duration="7157000" />
+      <workItem from="1517821452872" duration="8758000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7157000" />
+    <option name="totallyTimeSpent" value="8758000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -374,7 +416,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15277778" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.275" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -455,13 +497,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DurgaSoft/ArrayListExample4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#388#396#0" expanded="true" />
             <element signature="e#548#556#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DurgaSoft/ArrayListExample5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <element signature="e#237#245#0" expanded="true" />
+            <element signature="e#437#445#0" expanded="true" />
+            <element signature="e#668#676#0" expanded="true" />
+            <element signature="e#921#930#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DurgaSoft/ArrayListExample6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="32" lean-forward="false" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
