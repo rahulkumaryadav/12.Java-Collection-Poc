@@ -4,6 +4,7 @@ import java.util.LinkedList;
 
 /**
  * Created by Rahul Yadav
+ * Usually we can use LinkedList to implement stack and queue
  * LinkedList class consists of the following methods :
  * 1. boolean add(Object element) : It appends the element to the end of the list.
  * 2. void add(int index, Object element): It inserts the element at the position ‘index’ in the list.
