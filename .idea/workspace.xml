@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7d49141-1575-4c9b-b5ee-7074828bb88e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DurgaSoft/Cursors/EnumerationDemo.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/sbt.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DurgaSoft/Cursors/IteratorDemo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/12.Java-Collection-Poc.iml" afterPath="$PROJECT_DIR$/12.Java-Collection-Poc.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DurgaSoft/Cursors.java" afterPath="$PROJECT_DIR$/src/DurgaSoft/Cursors/Cursors.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,11 +25,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EnumerationDemo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EnumerationDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DurgaSoft/Cursors/EnumerationDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="28" />
+            <state relative-caret-position="192">
+              <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IteratorDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DurgaSoft/Cursors/IteratorDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,6 +72,7 @@
         <option value="$PROJECT_DIR$/src/DurgaSoft/Cursors/Cursors.java" />
         <option value="$PROJECT_DIR$/src/DurgaSoft/Cursors/Enumeration.java" />
         <option value="$PROJECT_DIR$/src/DurgaSoft/Cursors/EnumerationDemo.java" />
+        <option value="$PROJECT_DIR$/src/DurgaSoft/Cursors/IteratorDemo.java" />
       </list>
     </option>
   </component>
@@ -149,7 +155,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.IteratorDemo">
     <configuration name="Cursors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -177,6 +183,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="DurgaSoft.Cursors.EnumerationDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="12.Java-Collection-Poc" />
+      <envs />
+    </configuration>
+    <configuration name="IteratorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="DurgaSoft.Cursors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="DurgaSoft.Cursors.IteratorDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -269,14 +294,16 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.Cursors" />
       <item index="1" class="java.lang.String" itemvalue="Application.EnumerationDemo" />
+      <item index="2" class="java.lang.String" itemvalue="Application.IteratorDemo" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.EnumerationDemo" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Cursors" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.IteratorDemo" />
+        <item index="1" class="java.lang.String" itemvalue="Application.EnumerationDemo" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Cursors" />
       </list>
     </recent_temporary>
   </component>
@@ -295,16 +322,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1518062284221</updated>
-      <workItem from="1518062287943" duration="1959000" />
+      <workItem from="1518062287943" duration="3230000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1959000" />
+    <option name="totallyTimeSpent" value="3230000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -319,7 +345,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -356,8 +382,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DurgaSoft/Cursors/EnumerationDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="192">
+          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DurgaSoft/Cursors/IteratorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
