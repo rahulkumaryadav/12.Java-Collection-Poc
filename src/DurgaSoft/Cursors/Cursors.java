@@ -1,11 +1,11 @@
-package DurgaSoft;
+package DurgaSoft.Cursors;
 
 /**
  * @Author Rahul Yadav
  * @Dated :208-02-07
  * If we want to get object one by one from the collection then we should go for cursor
  * 3 types of cursor in java
- * Enumeration
+ * EnumerationDemo
  * Iterator
  * ListIterator
  */
