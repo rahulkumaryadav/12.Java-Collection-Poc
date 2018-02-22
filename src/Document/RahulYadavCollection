@@ -1,0 +1,30 @@
+
+
+                                         Task: Design collection Frame work
+------------------------------------------------------------------------------------------------------------------------
+
+Step 1:Collection tree.
+
+
+                                                              Collection(I)
+                                                                    |
+                                                                    |
+                                             |----------------------------------------------
+                                             |                   |                        |
+                                           List(I)               |                      Queue(I)
+                                             |                   |                          |
+           ------------------------------------------            |           --------------------------
+           |                  |                     |            |           |                         |
+        ArrayList(Class)    Linkedlist(Class)   Vector(Class)    |        Priority Queue(C)      Blocking Queue
+                                                    |            |                                     |
+                                                Stack(Class)     |                            -------------------
+                                                               Set(I)                         |                  |
+                                                                 |               Priority Blocking Queue   LinkedBlocking Queue
+                                                                 |
+                                                             HashSet(Class)
+                                                                 |
+                                                                 |
+                                                        LinkedHashSet(Class)
+
+
+
